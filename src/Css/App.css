@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&family=Barlow:wght@100;200;300;400&family=Bellefair&family=Poppins:wght@400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: radial-gradient(circle, #213435, #1e3031,   #1a2929,  #142020);
+}
+.title-home{
+  font-size: 50px;
+  color: #e5e7e5;
+  font-weight: 400;
+}
+.info{
+  width: 70%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  color:#91be91;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.span-pix{
+  background-image: linear-gradient(to right, #648a64, #a6b985);
+  font-size: 75px;
+  background-clip: text;
+  color: transparent;
+}
